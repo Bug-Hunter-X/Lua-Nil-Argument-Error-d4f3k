@@ -1,0 +1,3 @@
+This repository demonstrates a common error in Lua programming: passing a nil value to a function that expects a number.  The `bug.lua` file contains the erroneous code, while `bugSolution.lua` provides a solution to handle the nil argument gracefully.
+
+The error highlights a critical aspect of Lua's error handling. While Lua provides basic error handling, improving it to provide more contextual information improves debugging.  This example shows how to improve error messages for better diagnostics.
